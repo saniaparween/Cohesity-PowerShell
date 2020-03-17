@@ -8,9 +8,6 @@ Request to download the specified file from the specified server.
 ```
 Save-CohesityFile -FileName <string> -ServerName <string> -OutFile <string>[<CommonParameters>]
 ```
-```
-Save-CohesityFile -FileName <string> -ServerName <string> [<CommonParameters>]
-```
 
 ## DESCRIPTION
 The Save-CohesityFile function is used to download specific file using REST API from the specified server under tthe specified target folder.
@@ -62,7 +59,7 @@ Accept wildcard characters: False
 ```
 
 ### -OutFile
-// Specifies the output file. 
+Specifies the output file. 
 
 ```yaml
 Type: string

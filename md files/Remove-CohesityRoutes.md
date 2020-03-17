@@ -22,20 +22,23 @@ Deletes the specifies static route from the Cohesity cluster.
 ```
 Remove-CohesityRoutes -DestNetwork "10.2.3.4" -NextHop "10.2.3.5" -InterfaceGroupName "intf_group1"
 
-//desc
+Removes the static route based on the specified parameters.
 ```
 
 ### EXAMPLE 2
 ```
 Get-CohesityRoutes -FilterName INTERFACE-GROUP-NAME -FilterValue "intf_group1" | Remove-CohesityRoutes
-//desc
+
 ```
+Removes the static route based on the specified parameters.
 
 ### EXAMPLE 3
 ```
 Get-CohesityRoutes -FilterName DESTINATION-NETWORK -FilterValue "1.2.4.14/32" | Remove-CohesityRoutes
-//desc
+
 ```
+Removes the static route based on the specified parameters.
+
 
 ## PARAMETERS
 
@@ -79,7 +82,7 @@ Aliases:
 
 Required: True
 Position: Named
-Default value: /
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -94,7 +97,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: /
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -109,7 +112,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: /
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```

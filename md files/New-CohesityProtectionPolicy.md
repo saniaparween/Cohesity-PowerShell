@@ -71,7 +71,7 @@ Aliases:
 
 Required: False
 Position: Named
-Default value: 
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -80,19 +80,19 @@ Accept wildcard characters: False
 Specifies the type of incremental schedule.
 
 ```yaml
-Type: //
+Type: string
 Parameter Sets: (All)
 Aliases:
 
 Required: False
 Position: Named
-Default value: //INCREMENTAL-ONLY
+Default value: INCREMENTAL-ONLY
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
 
 ### -VaultName
-Specifies the type of incremental schedule.
+Specifies the name of the vault.
 
 ```yaml
 Type: string

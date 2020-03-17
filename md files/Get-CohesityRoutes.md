@@ -10,7 +10,7 @@ Get the routes.
 ```
 
 ## DESCRIPTION
-The Get-CohesityRoutes function is used to get routes.
+List the static routes for the cohesity cluster.
 
 ## EXAMPLES
 
@@ -30,7 +30,7 @@ Lists all filtered cohesity routes.
 ## PARAMETERS
 
 ### -FilterName
-//Specifies the filter name.
+Provide one of the option(Destination Network/Interface group name/Next hop) that to be used for filtering the routes
 
 ```yaml
 Type: string
@@ -45,7 +45,7 @@ Accept wildcard characters: False
 ```
 
 ### -FilterValue
-//Specifies the filter value.
+Provide the value for the option provided in the FilterName
 
 ```yaml
 Type: string

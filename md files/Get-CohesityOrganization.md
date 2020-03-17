@@ -7,7 +7,6 @@ To get a specific organization provide the organization name
 
 ```
 Get-CohesityOrganization -Name <string> [<CommonParameters>] 
-Get-CohesityOrganization
 ```
 
 ## DESCRIPTION

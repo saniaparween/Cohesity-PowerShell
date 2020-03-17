@@ -63,7 +63,7 @@ Aliases:
 
 Required: True
 Position: Named
-Default value: /
+Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
@@ -73,7 +73,7 @@ Specifies a directory path inside the View to be mounted using this Share.
 If not specified, '/' will be used as the default path.
 
 ```yaml
-Type: //string
+Type: string
 Parameter Sets: (All)
 Aliases:
 
