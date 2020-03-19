@@ -17,23 +17,22 @@ The New-CohesityStorageDomain function is used to create storage domain (view bo
 ### EXAMPLE 1
 ```
 New-CohesityStorageDomain -Name <string>
-
-Create storage domain (view box) with default settings.
 ```
+Create storage domain (view box) with default settings.
+
 
 ### EXAMPLE 2
 ```
 New-CohesityStorageDomain -Name <string> -PhysicalQuota <integer>
-
-Create storage domain (view box) with specific physical quota.
 ```
+Create storage domain (view box) with specific physical quota.
+
 
 ### EXAMPLE 3
 ```
 New-CohesityStorageDomain -Name <string> -Deduplication <boolean> -InlineDeduplication <boolean> -Compression <boolean> -InlineCompression <boolean> -Encryption <boolean>
-
-Create storage domain (view box) with deduplication, Compression disabled and Encryption enabled. Based on enable/disable state of compression and encryption parameter, compression and encryption policy will be decided respectively.
 ```
+Create storage domain (view box) with deduplication, Compression disabled and Encryption enabled. Based on enable/disable state of compression and encryption parameter, compression and encryption policy will be decided respectively.
 
 ## PARAMETERS
 
@@ -150,7 +149,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### Cohesity.Model.ViewAlias
 ## NOTES
 
 ## RELATED LINKS

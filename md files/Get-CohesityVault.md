@@ -42,7 +42,6 @@ This cmdlet supports the common parameters: -Debug, -ErrorAction, -ErrorVariable
 
 ## OUTPUTS
 
-### Cohesity.Model.ViewAlias
 ## NOTES
 
 ## RELATED LINKS
