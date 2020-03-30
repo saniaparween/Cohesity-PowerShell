@@ -1,5 +1,5 @@
 ##  SYNOPSIS
-.get interface group.
+Get interface group.
 
 ##  DESCRIPTION
 The Get-CohesityInterfaceGroup function is used to get interface group.
